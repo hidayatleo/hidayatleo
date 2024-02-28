@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Jam</title>
+    <link rel="stylesheet" href="contoh.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">JAM DIGITAL</div>
+        <ul>
+            <li><a href="https://www.facebook.com/leo.cvk.3/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/hdyt.leo/?hl=en" target="_blank">Instagram</a></li>
+            <li><a href="about.HTML" target="_blank">Tentang Saya</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1 id="welcome"><span>Motivasi</span></h1>
+        <p><span>"Waktu adalah mata uang yang tak ternilai</span>. Gunakan setiap detiknya untuk menemukan sesuatu yang berharga di dalam penemuan hidup Anda."</p>
+        <div id="clock"></div>
+    </div>
+    <div class="container">
+        <div id="clock"></div>
+        <div id="date"></div> 
+    </div>
+    <section id="footer">
+        <h2>Contact</h2>
+        <p>Untuk Kritik dan Saran bisa kirim ke : <a href="https://forms.gle/UAPRJ5EjsjhaMJtE6">Di Sini</a></p>
+      </section>
+    <script src="scrip.js"></script>
+</body>
+</html>
