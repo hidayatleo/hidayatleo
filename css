@@ -1,0 +1,78 @@
+@import url(Roboto-Medium.ttf);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 400px;
+  border-radius: 20px;
+  border-bottom: inset;
+  border-top: inset;
+  border-left: inset;
+  border-right: inset;
+}
+
+.about-text {
+  width: 550px;
+}
+#main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about-text h1 {
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5 {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  span {
+    color: orange;
+  }
+  .about-text p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+    color: white;
+  }
+  .button {
+    display: inline-block;
+    padding: 13px;
+    border-radius: 1px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 350;
+    transition: all 0.50s ease;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: orange;
+    transform: translateX(10px);
+    border: 5px solid orange;
+  }
